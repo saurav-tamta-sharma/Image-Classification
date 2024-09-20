@@ -5,7 +5,9 @@ This project demonstrates how to classify images using a Convolutional Neural Ne
 The application features an intuitive interface built with Streamlit, where users can upload images for classification and visualize the corresponding Grad-CAM heatmap overlay.
 
 **Features:**   
-Classify Images: Classifies images into categories such as airplane, automobile, bird, cat, deer, dog, frog, horse, ship and truck. Image Preview: Displays images from a local directory before classification.
+Classify Images: Classifies images into categories such as airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.
+Image Preview: Displays images from a local directory before classification.
+Heatmaps: Utilizes Grad-CAM to generate heatmaps that visually explain which parts of the image influenced the model's predictions.
 
 **Prerequisites**:   
 Python 3.x TensorFlow Matplotlib Pillow
